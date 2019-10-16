@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/dhm
+    driver‐class‐name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#    schema:
+#      - classpath:aaa.sql
+
+
+    maxWait: 60000
+    initialSize: 5
+
+
+
+
